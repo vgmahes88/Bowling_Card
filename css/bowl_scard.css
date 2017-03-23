@@ -1,0 +1,284 @@
+@font-face {
+  font-family: 'Calibri-Bold';
+  src: url('../fonts/Calibri-Bold.eot?#iefix') format('embedded-opentype'), 
+	   url('../fonts/Calibri-Bold.woff') format('woff'), 
+	   url('../fonts/Calibri-Bold.ttf')  format('truetype'), 
+	   url('../fonts/Calibri-Bold.svg#Calibri-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FuturaBT-Bold';
+  src: url('../fonts/FuturaBT-Bold.eot?#iefix') format('embedded-opentype'),
+	  url('../fonts/FuturaBT-Bold.woff') format('woff'),
+	  url('../fonts/FuturaBT-Bold.ttf')  format('truetype'),
+	  url('../fonts/FuturaBT-Bold.svg#FuturaBT-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body
+{
+	 font-family: 'Calibri-Bold';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.sc_bowl_cc
+{
+  width:1200px;
+  height:720px;
+  margin:0 auto;
+  background-image:url("../img/bg.jpg");
+  background-size:100% 100%;
+}
+.sc_bl_container_sb
+{
+	width:851px;
+	height:659px;
+	margin:0 auto;
+}
+.sc_bowl_scc
+{
+	width:851px;
+	margin:0 auto;
+}
+.row
+{
+	clear:both;
+}
+.bowl_top_head
+{
+	/*height:45px;*/
+	height: 45px;
+}
+.scbowlheader_r {
+   /* background-image: url("../img/header.png");
+    background-size: 100% 100%;*/
+	background: rgb(0,49,77);
+    height: 103px;
+    /*margin-bottom:27px;*/
+	margin-bottom: 5px;
+}
+.sc_bowl_leftlogo {
+    width: 16%;
+    float: left;
+}
+.bowl_logo_section
+{
+	height: 103px;
+	display: table-cell;
+	vertical-align: middle;
+	left: 34px;
+	position: relative;
+}
+.sc_bowl_left_ct {
+    width:77%;
+    float: left;
+}
+.sc_bowl_right_ct
+{
+	width:23%;
+    float: left;
+}
+.sc_bat_dt {
+    height: 103px;
+    vertical-align: middle;
+    display: table;
+    width: 100%;
+    float: right;
+}
+.sc_bat_dt h4 {
+    color: rgb(255,246,7);
+    font-size: 25px;
+    margin-top: 0px;
+    vertical-align: middle;
+    display: table-cell;
+    text-transform: uppercase;
+}
+.scbowl_header_h h5 sub{
+	bottom:5px;
+	position:relative;
+}
+.scbowl_header_h {
+    margin-top: 11px;
+    left: 6%;
+    position: relative;
+}
+.scbowl_header_h h4 {
+    color: #fff;
+    font-size: 40px;
+}
+.scbowl_header_h h4,.scbowl_header_h h5 {
+    margin-top: 0px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 0px;
+    font-family: 'FuturaBT-Bold';
+}
+.scbowl_header_h h5 {
+    color: rgb(218,221,55);
+    font-size: 21px;
+	font-weight: 400;
+}
+.scbowl_header_h h5 span
+{
+	padding-left: 10px;
+}
+.bowlplayers_c
+{
+	width:30%;
+	float:left;
+}
+.bowlplayers_section
+{
+	width:14%;
+	float:left;
+}
+.bowling_thead
+{
+	/*background-image: url("../img/blue bg.png");
+    background-size: 100% 100%;
+	/*height:45px;*/
+	background: rgb(0,49,77);
+	height: 33px;
+}
+.overs h4
+{
+	color: #fff;
+	text-transform: uppercase;
+	/*font-size: 19px;*/
+	font-size: 18px;
+	margin-top: 0px;
+	/*margin-bottom: 15px;
+	top: 10px;*/
+	margin-bottom: 10px;
+	top: 3px;
+	position: relative;
+}
+.bowling_data_h
+{
+	/*background-image: url("../img/white bg.png");
+    background-size: 100% 100%;*/
+	background:rgb(255,255,255);
+	height:35px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	
+}
+.bowl_player_name h4{
+	color: #222222;
+	text-transform: uppercase;
+	/*font-size: 19px;
+	margin-top: 7px;
+	margin-bottom: 8px;*/
+	font-size: 18px;
+	margin-top: 6px;
+	margin-bottom:5px;
+}
+.bowlplayers_c h4{
+	padding-left:15px;
+}
+.bowl_fow
+{
+	/*background-image: url("../img/blue bg.png");
+    background-size: 100% 100%;
+	/*height:45px;*/
+	height: 33px;
+	background: rgb(0,49,77);
+}
+.inning_runs
+{
+	/*background-image: url("../img/white bg.png");
+    background-size: 100% 100%;
+	/*height:45px;*/
+	background:rgb(255,255,255);
+	height: 33px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.bowl_left_c
+{
+	width:10%;
+	float:left;
+} 
+.bowl_fow_runs
+{
+	width:9%;
+	float:left;
+}
+.bowl_fow_left h4
+{
+	color:#fff;
+	text-transform:uppercase;
+	/*font-size:19px;
+	margin-top: 10px;
+	margin-bottom: 10px;*/
+	font-size: 18px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.bowl_fow_runs_take h4
+{
+	color:#fff;
+	text-transform:uppercase;
+	/*font-size:19px;
+	margin-top: 10px;
+	margin-bottom: 10px;*/
+	font-size: 18px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.inning_runs h4
+{
+	/*color:#000;*/
+	color: #222222;
+}
+.scb_bowlft {
+    /*background-image: url("../img/white bg.png");
+    background-size: 100% 100%;*/
+	background: rgb(0,49,77);
+    /*height: 48px;*/
+	height: 40px;
+}
+.scbowl_left, .scbowl_right {
+    width: 50%;
+    float: left;
+}
+.scbowl_over_bg {
+    /*background-image: url("../img/small_blue_bg.png");
+    background-size: 100% 100%;
+   /* height: 47px;*/
+   height: 40px;
+}
+.scb_bowl_cc
+{
+	width:33.33%;
+	float:left;
+}
+.scbowl_overs h3
+{
+	color:#fff;
+	text-transform:uppercase;
+	/*margin-top:10px;
+	margin-bottom:10px;
+	font-size: 23px;*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 21px;
+}
+.scfbowl_runs h3
+{
+	text-transform:uppercase;
+	/*margin-top:10px;
+	margin-bottom:10px;
+	font-size: 23px;*/
+	margin-top: 6px;
+	margin-bottom: 6px;
+	font-size: 21px;
+	/*color:#000;*/
+	color: #fff;
+}
+.bowl_player_sctn
+{
+	/*margin-bottom:30px;*/
+	margin-bottom:10px;
+}
