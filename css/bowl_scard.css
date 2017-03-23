@@ -18,7 +18,7 @@
 }
 body
 {
-	 font-family: 'Calibri-Bold';
+	font-family: 'Calibri-Bold';
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -29,6 +29,10 @@ body
   margin:0 auto;
   background-image:url("../img/bg.jpg");
   background-size:100% 100%;
+}
+.sc_bowl_top_head
+{
+	height:22px;
 }
 .sc_bl_container_sb
 {
@@ -45,18 +49,12 @@ body
 {
 	clear:both;
 }
-.bowl_top_head
-{
-	/*height:45px;*/
-	height: 45px;
-}
 .scbowlheader_r {
-   /* background-image: url("../img/header.png");
+    /*background-image: url("../img/header.png");
     background-size: 100% 100%;*/
 	background: rgb(0,49,77);
     height: 103px;
-    /*margin-bottom:27px;*/
-	margin-bottom: 5px;
+    margin-bottom:8px;
 }
 .sc_bowl_leftlogo {
     width: 16%;
@@ -71,12 +69,12 @@ body
 	position: relative;
 }
 .sc_bowl_left_ct {
-    width:77%;
+    width: 77%;
     float: left;
 }
 .sc_bowl_right_ct
 {
-	width:23%;
+	width: 23%;
     float: left;
 }
 .sc_bat_dt {
@@ -88,19 +86,22 @@ body
 }
 .sc_bat_dt h4 {
     color: rgb(255,246,7);
-    font-size: 25px;
+    font-size: 21px;
     margin-top: 0px;
     vertical-align: middle;
     display: table-cell;
     text-transform: uppercase;
 }
-.scbowl_header_h h5 sub{
-	bottom:5px;
-	position:relative;
-}
 .scbowl_header_h {
     margin-top: 11px;
     left: 6%;
+    position: relative;
+}
+.scbowl_header_h h5 span {
+    padding-left: 10px;
+}
+.scbowl_header_h h5 sub {
+    bottom: 5px;
     position: relative;
 }
 .scbowl_header_h h4 {
@@ -117,11 +118,6 @@ body
 .scbowl_header_h h5 {
     color: rgb(218,221,55);
     font-size: 21px;
-	font-weight: 400;
-}
-.scbowl_header_h h5 span
-{
-	padding-left: 10px;
 }
 .bowlplayers_c
 {
@@ -136,43 +132,35 @@ body
 .bowling_thead
 {
 	/*background-image: url("../img/blue bg.png");
-    background-size: 100% 100%;
-	/*height:45px;*/
+    background-size: 100% 100%;*/
 	background: rgb(0,49,77);
-	height: 33px;
+	height:45px;
 }
 .overs h4
 {
 	color: #fff;
 	text-transform: uppercase;
-	/*font-size: 19px;*/
-	font-size: 18px;
+	font-size: 22px;
 	margin-top: 0px;
-	/*margin-bottom: 15px;
-	top: 10px;*/
-	margin-bottom: 10px;
-	top: 3px;
+	margin-bottom: 15px;
+	top: 10px;
 	position: relative;
 }
 .bowling_data_h
 {
 	/*background-image: url("../img/white bg.png");
     background-size: 100% 100%;*/
-	background:rgb(255,255,255);
-	height:35px;
+	background: rgb(255,255,255);
+	height:45px;
 	margin-top: 1px;
 	margin-bottom: 1px;
-	
 }
 .bowl_player_name h4{
-	color: #222222;
+	color: #000;
 	text-transform: uppercase;
-	/*font-size: 19px;
-	margin-top: 7px;
-	margin-bottom: 8px;*/
-	font-size: 18px;
-	margin-top: 6px;
-	margin-bottom:5px;
+	font-size: 22px;
+	margin-top: 10px;
+	margin-bottom: 11px;
 }
 .bowlplayers_c h4{
 	padding-left:15px;
@@ -180,18 +168,16 @@ body
 .bowl_fow
 {
 	/*background-image: url("../img/blue bg.png");
-    background-size: 100% 100%;
-	/*height:45px;*/
-	height: 33px;
+    background-size: 100% 100%;*/
 	background: rgb(0,49,77);
+	height:45px;
 }
 .inning_runs
 {
 	/*background-image: url("../img/white bg.png");
-    background-size: 100% 100%;
-	/*height:45px;*/
-	background:rgb(255,255,255);
-	height: 33px;
+    background-size: 100% 100%;*/
+	background: rgb(255,255,255);
+	height:45px;
 	margin-top: 1px;
 	margin-bottom: 1px;
 }
@@ -209,45 +195,36 @@ body
 {
 	color:#fff;
 	text-transform:uppercase;
-	/*font-size:19px;
+	font-size:22px;
 	margin-top: 10px;
-	margin-bottom: 10px;*/
-	font-size: 18px;
-	margin-top: 4px;
-	margin-bottom: 4px;
+	margin-bottom: 10px;
 }
 .bowl_fow_runs_take h4
 {
 	color:#fff;
 	text-transform:uppercase;
-	/*font-size:19px;
+	font-size:22px;
 	margin-top: 10px;
-	margin-bottom: 10px;*/
-	font-size: 18px;
-	margin-top: 4px;
-	margin-bottom: 4px;
+	margin-bottom: 10px;
 }
 .inning_runs h4
 {
-	/*color:#000;*/
-	color: #222222;
+	color:#000;
 }
 .scb_bowlft {
     /*background-image: url("../img/white bg.png");
     background-size: 100% 100%;*/
 	background: rgb(0,49,77);
-    /*height: 48px;*/
-	height: 40px;
+    height: 48px;
 }
 .scbowl_left, .scbowl_right {
     width: 50%;
     float: left;
 }
 .scbowl_over_bg {
-    /*background-image: url("../img/small_blue_bg.png");
-    background-size: 100% 100%;
-   /* height: 47px;*/
-   height: 40px;
+   /* background-image: url("../img/small_blue_bg.png");
+    background-size: 100% 100%;*/
+    height: 47px;
 }
 .scb_bowl_cc
 {
@@ -258,27 +235,19 @@ body
 {
 	color:#fff;
 	text-transform:uppercase;
-	/*margin-top:10px;
+	margin-top:10px;
 	margin-bottom:10px;
-	font-size: 23px;*/
-	margin-top: 5px;
-	margin-bottom: 5px;
-	font-size: 21px;
+	font-size: 23px;
 }
 .scfbowl_runs h3
 {
 	text-transform:uppercase;
-	/*margin-top:10px;
+	margin-top:10px;
 	margin-bottom:10px;
-	font-size: 23px;*/
-	margin-top: 6px;
-	margin-bottom: 6px;
-	font-size: 21px;
-	/*color:#000;*/
+	font-size: 23px;
 	color: #fff;
 }
 .bowl_player_sctn
 {
-	/*margin-bottom:30px;*/
-	margin-bottom:10px;
+	margin-bottom:30px;
 }
